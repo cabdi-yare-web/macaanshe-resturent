@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MACAANSHE | Premium Somali Dining</title>
+<meta name="description" content="A modern dining experience rooted in flavor, hospitality, and unforgettable moments.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loader" class="loader">
+<div class="loader-content">
+<h1 class="loader-logo">MACAANSHE</h1>
+<p class="loader-tagline">A MOMENT. A MEMORY. A TASTE.</p>
+<div class="loader-bar"><div class="loader-progress"></div></div>
+</div>
+</div>
+
+<!-- Custom Cursor -->
+<div id="cursor" class="cursor"></div>
+
+<!-- Navigation -->
+<header id="navbar" class="navbar">
+<div class="nav-container">
+<a href="#home" class="nav-logo">MACAANSHE</a>
+<nav class="nav-links" id="navLinks">
+<a href="#home" class="nav-link active">Home</a>
+<a href="#about" class="nav-link">About</a>
+<a href="#menu" class="nav-link">Menu</a>
+<a href="#events" class="nav-link">Events</a>
+<a href="#reservation" class="nav-link">Reservation</a>
+</nav>
+<button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+<!-- Three.js Canvas Container -->
+<div id="hero-canvas" class="hero-canvas"></div>
+
+<div class="hero-container">
+<div class="hero-content reveal">
+<span class="hero-subtitle">WELCOME TO MACAANSHE</span>
+<h1 class="hero-title">Taste. Tradition.<br>Together.</h1>
+<p class="hero-desc">A modern dining experience rooted in flavor, hospitality, and unforgettable moments.</p>
+<div class="hero-cta-group">
+<a href="#menu" class="btn btn-primary">EXPLORE MENU</a>
+<a href="#reservation" class="btn btn-secondary">RESERVE A TABLE</a>
+</div>
+</div>
+
+<div class="hero-visual reveal">
+<div class="hero-image-wrapper" id="heroImage">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000&auto=format&fit=crop" alt="Macaanshe Signature Dish" class="hero-img">
+<div class="hero-glow"></div>
+</div>
+</div>
+</div>
+
+<div class="hero-overlay"></div>
+</section>
+
+<!-- Story / About Section -->
+<section id="about" class="section section-about">
+<div class="container">
+<div class="about-grid">
+<div class="about-text reveal">
+<span class="section-subtitle">DISCOVER</span>
+<h2 class="section-title">Our Delicious Story</h2>
+<p class="about-desc">
+Macaanshe is more than a place to eat. It is a place where flavors, stories, and people come together. Inspired by the warmth of Somali hospitality and the beauty of natural ingredients, we create dishes designed to be remembered.
+</p>
+<a href="#menu" class="btn btn-text">Read Our Story <span class="arrow">→</span></a>
+</div>
+<div class="about-image reveal">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1000&auto=format&fit=crop" alt="Macaanshe Interior" class="img-reveal">
+</div>
+</div>
+</div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="section section-menu">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-subtitle">DISCOVER</span>
+<h2 class="section-title">Our Menu</h2>
+<p class="section-desc">Crafted with intention. Served with heart.</p>
+</div>
+
+<div class="menu-grid">
+<!-- Item 1 -->
+<div class="menu-item reveal">
+<div class="menu-item-img-wrapper">
+<img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop" alt="Macaanshe Signature Steak">
+</div>
+<div class="menu-item-info">
+<div class="menu-item-header">
+<h3>Macaanshe Signature Steak</h3>
+<span class="menu-item-price">28</span>
+</div>
+<p>Slow-roasted chicken with aromatic Somali spices</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="menu-item reveal">
+<div class="menu-item-img-wrapper">
+<img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop" alt="Ocean Harvest">
+</div>
+<div class="menu-item-info">
+<div class="menu-item-header">
+<h3>Ocean Harvest</h3>
+<span class="menu-item-price">24</span>
+</div>
+<p>Fragrant rice, vegetables, herbs and house sauce</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="menu-item reveal">
+<div class="menu-item-img-wrapper">
+<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?q=80&w=800&auto=format&fit=crop" alt="Macaanshe Dessert">
+</div>
+<div class="menu-item-info">
+<div class="menu-item-header">
+<h3>Macaanshe Dessert</h3>
+<span class="menu-item-price">18</span>
+</div>
+<p>Fresh fruits, craft cheeses, and house crackers</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Signature Dish Section -->
+<section class="section section-signature">
+<div class="container">
+<div class="signature-wrapper reveal">
+<div class="signature-bg-number">01</div>
+<div class="signature-image-wrapper">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000&auto=format&fit=crop" alt="The Signature Dish" class="signature-img">
+</div>
+<div class="signature-content">
+<span class="section-subtitle">THE SIGNATURE</span>
+<h2 class="section-title">A plate worth<br>remembering.</h2>
+<a href="#menu" class="btn btn-outline">DISCOVER THE DISH</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="section section-services">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-subtitle">WHAT WE OFFER</span>
+<h2 class="section-title">Our Great Services</h2>
+<p class="section-desc">The atmosphere sets the stage. It's about more than just a dining room away from your home. Food takes the spotlight as guests.</p>
+</div>
+
+<div class="services-grid">
+<div class="service-card reveal">
+<div class="service-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6l5.25 3.15.75-1.23-4-2.37V7z"/></svg>
+</div>
+<h3>Dining</h3>
+<p>An unforgettable atmosphere for every meal.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4-3h2v13h-2z"/></svg>
+</div>
+<h3>Events</h3>
+<p>Private parties and special occasions.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+</div>
+<h3>Special Moments</h3>
+<p>Celebrate life's best moments with us.</p>
+</div>
+<div class="service-card reveal">
+<div class="service-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 7h-3V6a4 4 0 0 0-8 0v1H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm-9-1a2 2 0 0 1 4 0v1h-4V6zm9 13H5V9h14v10z"/></svg>
+</div>
+<h3>Delivery</h3>
+<p>Bringing the Macaanshe taste to your door.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="section section-events">
+<div class="container">
+<div class="events-grid">
+<div class="events-image reveal">
+<img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1000&auto=format&fit=crop" alt="Macaanshe Events">
+</div>
+<div class="events-content reveal">
+<span class="section-subtitle">DISCOVER</span>
+<h2 class="section-title">Upcoming Events</h2>
+<p class="events-desc">You will meet interesting people under the atmosphere of live music and of course the accompaniment of incredible dishes at our barbecue party or tastings of new dishes from the chef.</p>
+
+<ul class="events-list">
+<li>
+<span class="event-name">Barbecue Night</span>
+<span class="event-date">Every Friday</span>
+</li>
+<li>
+<span class="event-name">Family Dinner</span>
+<span class="event-date">Every Sunday</span>
+</li>
+<li>
+<span class="event-name">Live Acoustic Evening</span>
+<span class="event-date">Every Saturday</span>
+</li>
+<li>
+<span class="event-name">Private Dining</span>
+<span class="event-date">Available on request</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section section-testimonials">
+<div class="container">
+<div class="section-header reveal">
+<span class="section-subtitle">LEARN MORE ABOUT</span>
+<h2 class="section-title">What Our Visitors Say</h2>
+</div>
+
+<div class="testimonials-grid">
+<div class="testimonial-card reveal">
+<div class="testimonial-rating">★★★★★</div>
+<p class="testimonial-text">"Every dish felt thoughtful, fresh, and beautifully presented."</p>
+<div class="testimonial-author">
+<span class="author-name">Angela M.</span>
+<span class="author-location">Mogadishu</span>
+</div>
+</div>
+<div class="testimonial-card reveal">
+<div class="testimonial-rating">★★★★★</div>
+<p class="testimonial-text">"One of the most memorable dining experiences we've had."</p>
+<div class="testimonial-author">
+<span class="author-name">David K.</span>
+<span class="author-location">Nairobi</span>
+</div>
+</div>
+<div class="testimonial-card reveal">
+<div class="testimonial-rating">★★★★☆</div>
+<p class="testimonial-text">"The atmosphere, food, and hospitality made the evening unforgettable."</p>
+<div class="testimonial-author">
+<span class="author-name">Maria S.</span>
+<span class="author-location">Dubai</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Reservation Section -->
+<section id="reservation" class="section section-reservation">
+<div class="container">
+<div class="reservation-wrapper reveal">
+<div class="reservation-content">
+<span class="section-subtitle">RESERVATION</span>
+<h2 class="section-title">Book Your Table</h2>
+
+<form id="reservationForm" class="reservation-form" novalidate>
+<div class="form-row">
+<div class="form-group">
+<input type="text" id="name" placeholder="Name" required>
+<span class="error-msg">Please enter your name</span>
+</div>
+<div class="form-group">
+<input type="email" id="email" placeholder="Email" required>
+<span class="error-msg">Please enter a valid email</span>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<input type="tel" id="phone" placeholder="Phone" required>
+<span class="error-msg">Please enter your phone</span>
+</div>
+<div class="form-group">
+<input type="number" id="guests" placeholder="Guests" min="1" max="20" required>
+<span class="error-msg">Number of guests</span>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<input type="date" id="date" required>
+<span class="error-msg">Please select a date</span>
+</div>
+<div class="form-group">
+<input type="time" id="time" required>
+<span class="error-msg">Please select a time</span>
+</div>
+</div>
+<div class="form-group full-width">
+<textarea id="request" placeholder="Special Request (Optional)" rows="3"></textarea>
+</div>
+<button type="submit" class="btn btn-primary btn-block">BOOK A TABLE</button>
+</form>
+
+<div id="formSuccess" class="form-success">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+<h3>Your table request has been received.</h3>
+<p>We will contact you shortly to confirm.</p>
+</div>
+</div>
+
+<div class="reservation-image">
+<img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=1000&auto=format&fit=crop" alt="Reserve a table at Macaanshe">
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<h3>MACAANSHE</h3>
+<p>Where flavors, stories, and people come together.</p>
+</div>
+
+<div class="footer-links">
+<h4>Navigation</h4>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#menu">Menu</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#reservation">Reservation</a></li>
+</ul>
+</div>
+
+<div class="footer-contact">
+<h4>Contact</h4>
+<ul>
+<li>Kostandi, 7, Odesa, Ukraine</li>
+<li>+380-777-77-77</li>
+<li>hello@macaanshe.com</li>
+</ul>
+<div class="footer-socials">
+<a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+<a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+<a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+</div>
+</div>
+
+<div class="footer-hours">
+<h4>Opening Hours</h4>
+<p>Monday – Sunday<br>11:00 AM – 11:00 PM</p>
+</div>
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 Macaanshe. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- Three.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<!-- Custom Script -->
+<script src="./main.js"></script>
+</body>
+</html>
